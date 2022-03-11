@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#73818F"
+    android:padding="20sp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:paddingTop="25sp"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:text="@string/tvKodeBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etKodeBarang"
+        android:inputType="text"
+        android:lines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="@string/tvJumlahBarang"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etJumlahBarang"
+        android:inputType="number"
+        android:lines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnHtng"
+        android:text="@string/btnHitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvHasil"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="10sp"
+        android:text="Hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+<!--    Nama Barang -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/NBHasil"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvHasilNB"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:text="@string/tvNBHasil"
+        android:textSize="12sp"/>
+
+<!--    Harga Barang -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/HBHasil"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvhasilHB"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:text="@string/tvHBHasil"
+        android:textSize="12sp"/>
+
+<!--    Total Harga-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/THHasil"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvHasilTH"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:text="@string/tvTHHasil"
+        android:textSize="12sp"/>
+
+<!--    Discount-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/DicHasiltv"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvDicHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:text="@string/tvHasilDic"
+        android:textSize="12sp"/>
+
+<!--    Jumlah Bayar-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/JBHasil"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvHasilJB"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:text="@string/HasiltvJB"
+        android:textSize="12sp"/>
+
+
+</LinearLayout>

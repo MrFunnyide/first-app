@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">tugas1-Aji Bayu Permadi</string>
+    <string name="nameApp">App Kasir</string>
+    <string name="NmBarang">Nama Barang</string>
+    <string name="JmBarang">Jumlah Barang</string>
+<!--    <string name="tvKodeBarang">Kode Barang</string>-->
+<!--    <string name="tvJumlahBarang">Jumlah Barang</string>-->
+    <string name="tvKodeBarang">Kode Barang</string>
+    <string name="tvJumlahBarang">Jumlah Barang</string>
+    <string name="btnHitung">Hitung</string>
+    <string name="tvNBHasil">Nama Barang</string>
+    <string name="NBHasil">Nama Barang :</string>
+    <string name="HBHasil">Harga Barang :</string>
+    <string name="tvHBHasil">Harga Barang</string>
+    <string name="THHasil">Total Harga :</string>
+    <string name="tvTHHasil">Total Harga</string>
+    <string name="tvDis">Discount :</string>
+    <string name="DicHasil">Discount</string>
+    <string name="tvHasilDic">Discount</string>
+    <string name="JBHasil">Jumlah Barang :</string>
+    <string name="HasilDic">Discount</string>
+    <string name="HasiltvJB">Jumlah Bayar</string>
+    <string name="DicHasiltv">Discount :</string>
+</resources>
